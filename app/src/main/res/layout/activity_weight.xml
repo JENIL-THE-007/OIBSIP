@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="13dp"
+    tools:context=".weight"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="13dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp">
+
+
+        <EditText
+            android:id="@+id/in2"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:hint="Enter Unit"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sp2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarSize="25dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text="Gram"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text="Kilogram"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text="Miligram"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text="Metric ton"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text="Pound"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text="Ounce"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text="Carrat"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text=":"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text=":"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text=":"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text=":"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text=":"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text=":"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/archivo_black"
+                android:padding="13dp"
+                android:text=":"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/gram"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/archivo_black"
+                android:maxLines="1"
+                android:padding="13dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kilog"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/archivo_black"
+                android:maxLines="1"
+                android:padding="13dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/milig"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/archivo_black"
+                android:maxLines="1"
+                android:padding="13dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/archivo_black"
+                android:maxLines="1"
+                android:padding="13dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pound"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/archivo_black"
+                android:maxLines="1"
+                android:padding="13dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ounce"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/archivo_black"
+                android:maxLines="1"
+                android:padding="13dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/carrat"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/archivo_black"
+                android:maxLines="1"
+                android:padding="13dp"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
